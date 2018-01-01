@@ -1,0 +1,23 @@
+body {
+  font-family: Verdana;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+nav {
+  display: inline-block;
+}
+
+.logo {
+  padding-right: 30px;
+}
+
+.logo span {
+  color: aquamarine;
+}
