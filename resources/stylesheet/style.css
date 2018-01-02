@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 /* Header Section */
@@ -15,6 +18,7 @@ header {
   font-family: Verdana, sans-serif;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
 }
 
 .logo {
@@ -45,4 +49,77 @@ nav span{
 
 nav span a {
   color: black;
+}
+
+/* Main Section */
+
+.main {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 116px;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  width: 630px;
+}
+
+.middle {
+  width: 300px;
+}
+
+.small {
+  width: 240px;
+}
+
+/* Main Section - Image Boxes */
+
+.image-content,
+.story-image {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  font-weight: bold;
+  color: white;
+}
+
+.lead .image-content {
+  background-image: url(../images/img-story-main.png);
+}
+
+.backwards {
+  background-image: url(../images/img-story-2.png);
+}
+
+.camera {
+  background-image: url(../images/img-story-3.png);
+}
+
+.cat {
+  background-image: url(../images/img-story-1.png);
+}
+
+.story-image {
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-content {
+  font-size: 40px;
 }
