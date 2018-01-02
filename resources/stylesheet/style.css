@@ -68,11 +68,13 @@ nav span a {
 .stories {
   display: flex;
   justify-content: space-between;
+  margin-top: 17px;
 }
 
 .story {
   display: flex;
   flex-direction: column;
+  width: 300px;
 }
 
 .left {
@@ -122,4 +124,34 @@ nav span a {
 
 .image-content {
   font-size: 40px;
+}
+
+/* Main Section - Text Boxes */
+
+.stories .text-content {
+  height: 250px;
+}
+
+.narrative {
+  margin: 16px 0;
+}
+
+/* Main Section - News Bites */
+
+h3 {
+  margin: 16px 0 41px 0;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bite {
+  display: block;
+  background-color: WhiteSmoke;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
 }
